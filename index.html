@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Silmaril - Middle-earth Voxel Server</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;800&family=Cormorant+Garamond:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --lotr-bg: #0a0c0b;
+        --lotr-green: #142018;
+        --lotr-gold: #c5a059;
+        --lotr-gold-dim: #856834;
+        --lotr-silver: #a8a29e;
+      }
+      body {
+        background-color: var(--lotr-bg);
+        color: #e5e5e5;
+        font-family: 'Cormorant Garamond', serif;
+        overflow-x: hidden;
+      }
+      h1, h2, h3, h4, h5, h6, .rpg-font {
+        font-family: 'Cinzel', serif;
+        letter-spacing: 0.05em;
+      }
+      /* Elegant scrollbar */
+      ::-webkit-scrollbar {
+        width: 6px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #0a0c0b; 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #2f3832; 
+        border-radius: 3px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #c5a059; 
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
